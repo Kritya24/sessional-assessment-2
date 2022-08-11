@@ -6,6 +6,12 @@
     background-color:  #EAF6F6;
 }
 
+.head{
+    text-align: center;
+    
+    
+}
+
 #footer {
     text-align: center;
     font-family: "Montserrat";
@@ -29,3 +35,33 @@
   .falign{
     padding: 0% 30%;
   }
+
+  .api{
+    height: 500px;
+    background-color: #BCEBD7;
+    
+  }
+  .hhead{
+    text-align: center;
+  }
+  
+  .pot{
+    height: 250px;
+    width: 250px;
+    float: left;
+    background-color: #FF6666	;
+    margin-left: 15%;
+    padding-left: 100px;
+    padding-top: 105px;
+  }
+  .pot1{
+    height: 250px;
+    width: 250px;
+    float: right;
+    background-color: #BDCBD6;
+    margin-right: 15%;
+    padding-left: 100px;
+    padding-top: 105px;
+  }
+
+
