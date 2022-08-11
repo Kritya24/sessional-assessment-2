@@ -25,16 +25,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class = "navbar-nav ms-auto">
             <li class = "nav-item rgap">
-                <a class = "nav-link" href="">Gallery</a>
+                <a class = "nav-link"onclick="cat('api.txt')" href="">Gallery</a>
             </li>
             <li class = "nav-item rgap">
-                <a class = "nav-link" href="">Blogs</a>
+                <a class = "nav-link"onclick="cat('api.txt')" href="">Blogs</a>
             </li>
             <li class = "nav-item rgap">
-                <a class = "nav-link" href="">Form</a>
+                <a class = "nav-link" onclick="cat('AboutYou.txt')" >Form</a>
             </li>
             <li class = "nav-item rgap">
-                <a class = "nav-link" href="">Contact</a>
+                <a class = "nav-link" href="#footer">Contact</a>
             </li>
         </ul>
         </div>
@@ -42,70 +42,31 @@
 
     <!--Something Else-->
     <div id="d2">
+        <div class="api">
+            <br>
+            <h2 class="hhead"><b>Image Ideas</b></h2>
+            <br>
+            <br>
+            <div class="pot">
+                <button onclick="httpreq()"><b><em>Iconic</em></b></button>
+                
+            </div>
+            <div class="pot1">
+                <button onclick="httpreq()"><b><em>Symbolic</em></b></button>
+            </div>
+    
+        </div>
 
     </div>
-    <div class="api">
-        <br>
-        <h2 class="hhead"><b>Image Ideas</b></h2>
-        <br>
-        <br>
-        <div class="pot">
-            <button onclick="httpreq()"><b><em>Iconic</em></b></button>
-            
-        </div>
-        <div class="pot1">
-            <button onclick="httpreq()"><b><em>Symbolic</em></b></button>
-        </div>
+    <div id="d3">
 
     </div>
+
 
 
 
     <!--Form-->
-    <div class="BG">
-        <form>
-            <div class="falign">
-                <br>
-                <h2 class="head"><b>More About You</b></h2>
-                <br>
-                <br>
-                
-                <div class="form-group" >
-                    <label for="">First Name</label>
-                    <input type="password" class="form-control"  placeholder="Enter First Name">
-                  </div>
-                  <br>
 
-                    <div class="form-group">
-                        <label for="">Last Name</label>
-                        <input type="" class="form-control" aria-describedby="" placeholder="Enter Last Name">                       
-                      </div>    
-                      <br>  
-
-            <div class="form-group">
-              <label for="">Email address</label>
-              <input type="email" class="form-control"  aria-describedby="" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <br>
-
-            <div class="form-group">
-                <label for="">Add files</label>
-                <input type="file" class="form-control"  aria-describedby="" placeholder="Enter email">
-              </div>
-              <br>
-             
-            <div class="form-group">
-                <label for="">Additional Comments</label>
-                <br>
-                <textarea name="" id="" cols="30" rows="3"></textarea>
-              </div>
-              <br>
-
-            <button type="submit" class="btn btn-dark">Submit</button>
-            </div>
-          </form>
-    </div>
 
     <!--Footer-->
     <footer id="footer">

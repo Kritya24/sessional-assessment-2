@@ -1,0 +1,14 @@
+ <div class="api">
+        <br>
+        <h2 class="hhead"><b>Image Ideas</b></h2>
+        <br>
+        <br>
+        <div class="pot">
+            <button onclick="httpreq()"><b><em>Iconic</em></b></button>
+            
+        </div>
+        <div class="pot1">
+            <button onclick="httpreq()"><b><em>Symbolic</em></b></button>
+        </div>
+
+    </div>

@@ -1,39 +1,38 @@
     <div class="BG">
-
         <form>
             <div class="falign">
                 <br>
-                <h2 class="head">More About You</h2>
+                <h2 class="head"><b>More About You</b></h2>
                 <br>
                 <br>
                 
                 <div class="form-group" >
-                    <label for="exampleInputPassword1">First Name</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter First Name">
+                    <label for="">First Name</label>
+                    <input type="password" class="form-control"  placeholder="Enter First Name">
                   </div>
                   <br>
 
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Last Name</label>
-                        <input type="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Last Name">                       
+                        <label for="">Last Name</label>
+                        <input type="" class="form-control" aria-describedby="" placeholder="Enter Last Name">                       
                       </div>    
                       <br>  
 
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <label for="">Email address</label>
+              <input type="email" class="form-control"  aria-describedby="" placeholder="Enter email">
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <br>
 
             <div class="form-group">
-                <label for="exampleInputEmail1">Add files</label>
-                <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <label for="">Add files</label>
+                <input type="file" class="form-control"  aria-describedby="" placeholder="Enter email">
               </div>
               <br>
              
             <div class="form-group">
-                <label for="exampleInputEmail1">Additional Comments</label>
+                <label for="">Additional Comments</label>
                 <br>
                 <textarea name="" id="" cols="30" rows="3"></textarea>
               </div>
