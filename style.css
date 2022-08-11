@@ -1,6 +1,10 @@
 .rgap{
     padding-right: 55px;
 }
+.BG{
+    height: 750px;
+    background-color:  #EAF6F6;
+}
 
 #footer {
     text-align: center;
@@ -21,3 +25,8 @@
   .credits {
     padding: 2%;
   }
+
+  .falign{
+    padding: 0% 10%;
+  }
+  
